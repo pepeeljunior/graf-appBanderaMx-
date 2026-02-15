@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Cambiado a min-height para evitar cortes en pantallas pequeñas */
+    margin: 0;
+    padding: 20px; /* Un poco de padding al body */
+}
+
+.card {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%; /* Ajustado para mejor respuesta */
+    max-width: 900px;
+    border: 1px solid #000;
+    box-sizing: border-box; /* Importante para el padding */
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.flag-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+    min-height: 20px;
+}
+
+input[type="range"] {
+    width: 80%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.spacer {
+    height: 25px;
+    width: 100%;
+}
+
+span {
+    font-family: monospace;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.color-box {
+    width: 100%;
+    height: 250px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#greenBox { background-color: #009900; }
+.white-box { background-color: #FFFFFF; }
+#redBox { background-color: #9D0000; }
+
+.escudo {
+    width: 60%;
+    height: auto;
+}
+
+/* ESTILO PARA LOS NOMBRES AGREGADOS */
+.credits {
+    margin-top: 40px; /* Espacio arriba de los nombres */
+    padding-top: 20px;
+    border-top: 1px solid #eee; /* Una línea sutil separadora */
+    font-size: 0.95em;
+    color: #333;
+    font-weight: 500;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Bandera de México</h1>
+        
+        <div class="flag-container">
+            <div class="column">
+                <label>Esperanza</label>
+                <input type="range" id="greenRange" min="0" max="255" value="153">
+                <span id="greenHex">#009900</span>
+                <div id="greenBox" class="color-box"></div>
+            </div>
+
+            <div class="column">
+                <label>Unidad</label>
+                <div class="spacer"></div>
+                <span>#FFFFFF</span>
+                <div class="color-box white-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg" alt="Escudo Nacional" class="escudo">
+                </div>
+            </div>
+
+            <div class="column">
+                <label>Sangre de nuestros héroes nacionales</label>
+                <input type="range" id="redRange" min="0" max="255" value="157">
+                <span id="redHex">#9D0000</span>
+                <div id="redBox" class="color-box"></div>
+            </div>
+        </div>
+
+        <p class="credits">Alan Alessandro Gonzalez Arroyo - 23201260 , Jose Luis Gomez Cruz - 23200841</p>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
